@@ -46,7 +46,7 @@ guess_count = 0
 guess_limit = 3
 out_of_guesses = False
 print("The Secret Word")
-print("Hint: starts from 'h'end with 'r' contains 6 letters")
+print("Hint: starts from 'h' end with 'r' contains 6 letters")
 while secret_word != guess and not(out_of_guesses) :
     if guess_count < guess_limit:
         guess = input('Enter secret word: ').upper().lower().title()
